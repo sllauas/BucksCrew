@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_status"
+    android:weightSum="1">
+
+    <!--
+    <ScrollView
+        android:id="@+id/MyMyScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/account_tab_bg">
+
+                <ImageView
+                    android:id="@+id/My_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/bad_face_lib"
+                    android:paddingLeft="@dimen/activity_vertical_margin" />
+
+                <TextView
+                    android:id="@+id/My_logintoast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_vertical|center"
+                    android:text="點擊右上角登陸"
+                    android:textColor="#666666"
+                    android:textSize="18sp"
+                    android:layout_below="@+id/My_head"
+                    android:layout_alignLeft="@+id/My_head"
+                    android:layout_alignStart="@+id/My_head"
+                    android:layout_alignRight="@+id/My_head"
+                    android:layout_alignEnd="@+id/My_head"
+                    android:paddingLeft="@dimen/activity_vertical_margin" />
+
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listView4"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toRightOf="@+id/My_head"
+                    android:layout_toEndOf="@+id/My_head"
+                    android:layout_alignParentBottom="true" />
+
+            </RelativeLayout>-->
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/listView3"
+                android:layout_weight="0.15" />
+
+
+        <!--</LinearLayout> -->
+    <!--</ScrollView>-->
+
+
+</LinearLayout>
+

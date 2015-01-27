@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+        android:id="@+id/stock_name"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Stock Name"
+        android:textSize="20sp"
+        android:background="#FF8800"
+        android:textColor="@color/white"
+        android:layout_weight="0.4" />
+
+        <TextView
+        android:id="@+id/stock_market_price"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="market_price"
+        android:textSize="20sp"
+        android:background="#FF8800"
+        android:textColor="@color/white"
+            android:layout_weight="0.6" />
+    </LinearLayout>
+
+
+    <include
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+layout="@layout/divider"/>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.layoutTest.appClass.FToggleButton
+            android:id="@+id/buy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/demo_button_min_height"
+            android:minWidth="@dimen/demo_button_min_width"
+            android:text="BUY"
+            android:paddingLeft="10dp"
+            android:layout_gravity="left|top"
+            android:textColor="@android:color/white"
+            fbutton:buttonColor="@color/indigo500"
+            fbutton:shadowEnabled="true"
+            android:paddingRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        <com.layoutTest.appClass.FToggleButton
+            android:id="@+id/sell_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/demo_button_min_height"
+            android:minWidth="@dimen/demo_button_min_width"
+            android:text="SELL"
+            android:paddingLeft="10dp"
+            android:layout_gravity="right|top"
+            android:textColor="@android:color/white"
+            fbutton:buttonColor="@color/indigo500"
+            fbutton:shadowEnabled="true"
+            android:paddingRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp" />
+    </RelativeLayout>
+
+<ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TradePriceTitle"
+                style="@style/RoboTheme"
+                android:layout_marginTop="0dp"
+                android:text="Trade Price"/>
+
+            <EditText
+                android:id="@+id/TradePriceText"
+                style="@style/RoboTheme"
+                android:layout_marginTop="0dp"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textSize="35sp"
+                android:numeric="decimal" />
+        </LinearLayout>
+
+          <com.appyvet.rangebar.RangeBar
+              android:id="@+id/rangebar1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:progress="0"
+              android:max="100"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/leftIndex"
+                style="@style/RoboTheme"
+                android:layout_marginTop="0dp"
+                android:text="Stop Loss Order"/>
+
+            <EditText
+                android:id="@+id/leftIndexValue"
+                style="@style/RoboTheme"
+                android:layout_marginTop="0dp"
+                android:text="@string/leftIndexValue"
+                android:textSize="35sp"
+                android:numeric="decimal"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rightIndex"
+                style="@style/RoboTheme"
+                android:layout_marginTop="0dp"
+                android:text="Stop Gain Order"/>
+
+            <EditText
+                android:id="@+id/rightIndexValue"
+                style="@style/RoboTheme"
+                android:layout_marginTop="0dp"
+                android:text="@string/rightIndexValue"
+                android:textSize="35sp"
+                android:numeric="decimal"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/TradeAmount"
+            style="@style/RoboTheme"
+            android:text="Trade Quantity"/>
+
+            <EditText
+                android:id="@+id/edit_stock_purchase_quantity"
+                style="@style/RoboTheme"
+                android:layout_marginTop="0dp"
+                android:text="@string/leftIndexValue"
+                android:textSize="35sp"
+                android:numeric="decimal"
+                android:inputType="numberDecimal" />
+
+        <com.appyvet.rangebar.RangeBar
+            android:id="@+id/TradeAmountSeek"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1.65" />
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Confirm"
+                android:id="@+id/tv_stock_purchase_confirm"
+                android:layout_centerInParent="true"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#FF8800"
+                android:textColor="#F8F8F8" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

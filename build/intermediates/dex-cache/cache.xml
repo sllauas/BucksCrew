@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/exploded-aar/MyAnjoyoLiuxiaowei/ResideMenu/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="92c70b408b1ff8ff3f587522746a264a9874e8c9">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/classes-d8c23a8cba26ce29d8b439a633a0d92328129031.jar" />
+    </item>
+    <item
+        jar="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/exploded-aar/com.appyvet/rangebar/0.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d281965012c0fbee59a20ac8771a810a994b88ee">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/classes-d2b97d24ad3726f4826cec9fef28a1c0fdef1390.jar" />
+    </item>
+    <item
+        jar="/Users/leo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-323288b32dd4894fda4ec6fde19f9dc14a1c7dc1.jar" />
+    </item>
+    <item
+        jar="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/exploded-aar/MyAnjoyoLiuxiaowei/FlatButtonLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="93d42f3d48ab98d4e74316e45e9052f56925cc56">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/classes-a35348d656f678776b6ce4f5ed724595fe6fb6a5.jar" />
+    </item>
+    <item
+        jar="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/classes-2d5b8127188a6e39c9eb84140d8d739edd6be378.jar" />
+    </item>
+    <item
+        jar="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5460a248ce3902c92a38db4310ffce27269e871f.jar" />
+    </item>
+    <item
+        jar="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/exploded-aar/MyAnjoyoLiuxiaowei/material_dialog_lib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="75e0baa28fc3f4aa45fea55a94d3b147735405db">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/classes-555958185459858186608312534d8c9bf6604e8f.jar" />
+    </item>
+    <item
+        jar="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/classes-a00efc2e63419a560e0da66943905a6899e14af0.jar" />
+    </item>
+    <item
+        jar="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/exploded-aar/MyAnjoyoLiuxiaowei/MPChartLib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27fd67aadcfb7c70bd45eb4344147336c9e8a966">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/classes-20670996bab4e21585edd1885f87594ae851cc5a.jar" />
+    </item>
+    <item
+        jar="/Users/leo/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/debug/library-2.4.0-a13029a66a604f761917699e353ad796d669eba3.jar" />
+    </item>
+
+</items>

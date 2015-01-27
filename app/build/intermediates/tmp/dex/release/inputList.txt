@@ -1,0 +1,11 @@
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/classes/release
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-323288b32dd4894fda4ec6fde19f9dc14a1c7dc1.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/classes-a35348d656f678776b6ce4f5ed724595fe6fb6a5.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/classes-d8c23a8cba26ce29d8b439a633a0d92328129031.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/classes-d2b97d24ad3726f4826cec9fef28a1c0fdef1390.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/classes-555958185459858186608312534d8c9bf6604e8f.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/library-2.4.0-a13029a66a604f761917699e353ad796d669eba3.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-5460a248ce3902c92a38db4310ffce27269e871f.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/classes-20670996bab4e21585edd1885f87594ae851cc5a.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/classes-a00efc2e63419a560e0da66943905a6899e14af0.jar
+/Users/leo/Desktop/MyAnjoyoLiuxiaowei/app/build/intermediates/pre-dexed/release/classes-2d5b8127188a6e39c9eb84140d8d739edd6be378.jar

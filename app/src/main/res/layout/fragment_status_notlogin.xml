@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#EEEEEE">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/bad_face_lib"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/textView28"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Login"
+            android:id="@+id/frag_status_notlogin_but"
+            android:layout_gravity="center"
+            android:layout_weight="0.11"
+            android:layout_centerInParent="true"
+            android:background="#FF8c00"
+            android:textStyle="bold"
+            android:textColor="#F8F8F8"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Please login to see status!"
+            android:id="@+id/textView28"
+            android:layout_weight="0.11"
+            android:layout_gravity="center"
+            android:layout_above="@+id/frag_status_notlogin_but"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+</LinearLayout>

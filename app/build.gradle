@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.anjoyo.liuxiaowei"
+        minSdkVersion 12
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile project(':rangebar')
+    compile project(':MPChartLib')
+    compile project(':material_dialog_lib')
+    compile project(':FlatButtonLib')
+    compile project(':ResideMenu')
+}
+
+tasks.withType(GroovyCompile) {
+    groovyOptions.encoding = "MacRoman"
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
